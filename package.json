@@ -1,0 +1,89 @@
+{
+  "name": "encodemaster",
+  "displayName": "EncodeMaster",
+  "description": "Master encoder/decoder for binary, hexadecimal and base64 formats",
+  "version": "1.1.0",
+  "publisher": "feliperodriguezfonte",
+  "icon": "icon.png",
+  "author": {
+    "name": "Felipe Rodríguez Fonte"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "binary",
+    "hex",
+    "hexadecimal",
+    "base64",
+    "converter",
+    "encoding",
+    "decode"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "encodemaster.fileToHex",
+        "title": "EncodeMaster: File to Hexadecimal"
+      },
+      {
+        "command": "encodemaster.fileToBase64",
+        "title": "EncodeMaster: File to Base64"
+      },
+      {
+        "command": "encodemaster.hexToFile",
+        "title": "EncodeMaster: Hexadecimal to File"
+      },
+      {
+        "command": "encodemaster.hexToBase64File",
+        "title": "EncodeMaster: Hexadecimal to Base64"
+      },
+      {
+        "command": "encodemaster.base64ToFile",
+        "title": "EncodeMaster: Base64 to File"
+      },
+      {
+        "command": "encodemaster.base64ToHexFile",
+        "title": "EncodeMaster: Base64 to Hexadecimal"
+      },
+      {
+        "command": "encodemaster.selectionToHex",
+        "title": "EncodeMaster: Selection to Hexadecimal"
+      },
+      {
+        "command": "encodemaster.selectionToBase64",
+        "title": "EncodeMaster: Selection to Base64"
+      },
+      {
+        "command": "encodemaster.hexToText",
+        "title": "EncodeMaster: Hexadecimal to Text"
+      },
+      {
+        "command": "encodemaster.hexToBase64",
+        "title": "EncodeMaster: Hexadecimal to Base64"
+      },
+      {
+        "command": "encodemaster.base64ToText",
+        "title": "EncodeMaster: Base64 to Text"
+      },
+      {
+        "command": "encodemaster.base64ToHex",
+        "title": "EncodeMaster: Base64 to Hexadecimal"
+      },
+      {
+        "command": "encodemaster.fileToHexdump",
+        "title": "EncodeMaster: File to Hexdump (xxd style)"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feliperodriguezfonte/encodemaster"
+  },
+  "license": "MIT"
+}
